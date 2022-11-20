@@ -1,7 +1,7 @@
 variable "all_ips" {
   description = "CIDR block for all Ip"
   type        = list(string)
-  default     = ["192.168.1.1/32"]
+  default     = ["0.0.0.0/0"]
 }
 
 variable "region" {
